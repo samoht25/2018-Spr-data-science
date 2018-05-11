@@ -1,3 +1,4 @@
+#Get bbox location: http://boundingbox.klokantech.com/
 from lib.twitter_streamer import Twitterator
 from lib.utility import get_credentials
 
