@@ -1,6 +1,5 @@
 # 2018-Spr-data-science
 ## Certification / Specialization
-<br>
 <br>  
 COM SCI X 450.1 Introduction to Data Science
 <br>
