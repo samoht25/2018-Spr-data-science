@@ -1,0 +1,20 @@
+<!doctype html>
+<title>Iris!!</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1>Iris!!</h1>
+</nav>
+<section class="content">
+<img src="data:image/png;base64,{{ results }}" width="500">
+{% block content %}
+  <form action='/iris/sample' method="post">
+    <input type="submit" value="sample">
+  </form>
+  <form action='/iris/train' method="post">
+    <input type="submit" value="train">
+  </form>
+  <form action='/iris/reset' method="post">
+    <input type="submit" value="reset">
+  </form>
+{% endblock %}
+</section>
