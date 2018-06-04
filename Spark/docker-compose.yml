@@ -1,0 +1,9 @@
+version: '2'
+services:
+  this_spark:
+    image: jupyter/pyspark-notebook
+    volumes:
+      - .:/home/jovyan
+    ports:
+      - 80:8888
+    command: start-notebook.sh --NotebookApp.token=""
